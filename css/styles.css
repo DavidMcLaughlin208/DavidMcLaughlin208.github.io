@@ -87,12 +87,14 @@ section#head-section {
 
 html {
 	font-family: Helvetica, serif;
+	margin: 0 auto;
 	background-color: #ededed;
 	background-image: url("http://3.bp.blogspot.com/-02gS9dwjujE/VmxXXGPW4AI/AAAAAAAAgXM/MAIgANMGqS0/s1600/simple-white-website-background.jpg");
 	background-repeat: repeat-y;
 	background-blend-mode: color-burn;
 	background-size: 100% 100%;
 	display: block;
+	max-width: 5000px;
 }
 
 section#intro {
