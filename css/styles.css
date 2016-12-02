@@ -1,0 +1,204 @@
+a {
+	color: orange;
+}
+
+a:visited {
+	color: purple;
+}
+
+aside {
+	border-top: 5px solid black;
+}
+
+section#blenderdoes {
+	max-height: 350px;
+	margin: 0 auto;
+	margin-bottom: 25px;
+	max-width: 50%;
+}
+
+body {
+	max-width: 1500px;
+}
+
+section#examples {
+	overflow: hidden;
+	min-width: 275px;
+	
+}
+
+section#examples div {
+	display: block;
+	width: 45%;
+	float: left;
+	min-width: 275px;
+}
+
+figcaption {
+	font-size: .7em;
+}
+
+h1, h2, h3, h4 {
+	font-family: verdana, serif;
+	text-align: center;
+}
+
+section#head-section {
+	position: fixed;
+	margin: auto;
+	top: -15px;
+	left: -5px;
+	width: 100%;
+	box-shadow: 0px 5px #232426;
+	height: 50px;
+
+}
+
+
+#headerimage {
+	position: relative;
+
+}
+
+#heading {
+	/*border: 1px solid black;*/
+	text-align: center;
+
+	
+}
+
+html {
+	font-family: Helvetica, serif;
+	background-color: #ededed;
+}
+
+#intro {
+	margin-top: 100px;
+}
+
+img {
+	border: 3px solid #797b7f;
+}
+
+input {
+	width: 20%;
+	min-width: 200px;
+	margin-bottom: 15px;
+	display: block;
+}
+
+label {
+	display: block;
+}
+
+li {
+	list-style-type: square;
+
+}
+
+li:hover {
+	font-size: 1.05em;
+	cursor: default;
+}
+
+main {
+	max-width: 1200px;
+	margin: 0 auto;
+	/*border: 1px solid black;*/
+	display: block;
+}
+
+section#opensource {
+	clear: left;
+}
+
+div.orange-bar {
+	height: 3px;
+	width: 50%;
+	background-color: orange;
+	margin: 0 auto;
+}
+
+.photo {
+	float: left;
+	width: auto;
+}
+
+#photo-container {
+	width: 90%;
+	min-width: 550px;
+	margin: auto;
+
+}
+
+section#photo-section {
+	height: 185px;
+	min-width: 550px;
+}
+
+section#pros {
+	clear:left;
+	width: 47%;
+	float:left;
+	min-height: 220px;
+	min-width: 275px;
+	
+}
+
+section#cons {
+	width: 47%;
+	float: right;
+	min-width: 275px;
+	min-height: 220px;
+}
+
+section {
+	background-color: white;
+	padding: 5px;
+	margin-bottom: 15px;
+	padding-left: 20px;
+	border: 1px solid #797b7f;
+	border-radius: 5px;
+	box-shadow: 1px 1px #6d6d6d;
+}
+
+#ul-container {
+	width: 100%;
+	margin: 0 auto;
+	display: block;
+}
+
+
+
+/*div, span{
+	border: 1px solid black;
+}*/
+
+@media screen and (max-width: 1125px) {
+	section#examples div {
+		float: none;
+		width: 90%;
+	}
+	main {
+		width: 90%;
+	}
+}
+
+@media screen and (max-width: 1016px) {
+	section#cons {
+		float: none;
+		width: 80%;
+		margin: 0 auto;
+		margin-bottom: 25px;
+	}
+	section#pros {
+		float: none;
+		width: 80%;
+		margin: 0 auto;
+		margin-bottom: 25px;
+	}
+	section#blenderdoes {
+		max-height: 420px;
+		min-width: 275px;
+	}
+}
