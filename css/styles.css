@@ -67,7 +67,7 @@ section#head-section {
 	top: -15px;
 	left: -5px;
 	width: 100%;
-	box-shadow: 0px 5px #232426;
+	box-shadow: 0px 3px #232426;
 	height: 50px;
 
 }
@@ -75,7 +75,10 @@ section#head-section {
 
 #headerimage {
 	position: relative;
-
+	top: -55px;
+	height: 40px;
+	width: 40px;
+	border: none;
 }
 
 #heading {
@@ -96,11 +99,12 @@ html {
 	background-size: 100% 100%;
 	display: block;
 	max-width: 5000px;
-	
+
 }
 
 section#intro {
-	margin-top: 100px;
+	margin-bottom: 25px;
+	padding-top: 50px; 
 }
 
 section#intro p {
@@ -157,22 +161,26 @@ div.orange-bar {
 	margin: 0 auto;
 }
 
-.photo {
-	float: left;
-	width: auto;
-}
-
-#photo-container {
-	width: 1px;
-	min-width: 550px;
-	margin: 0 auto;
-	display: block;
-
-}
-
 section#photo-section {
-	height: 185px;
+	height: 350px;
 	min-width: 550px;
+	width: 80%;
+	margin: auto;
+	margin-bottom: 15px;
+}
+
+figure#photo-container {
+	width: 820px;
+	min-width: 550px;
+	display: block;
+	margin: auto;
+	margin-top: 25px; 
+}
+
+section#photo-section figure#photo-container img {
+	width: 400px;
+	height: 300px;
+	border: 1px solid black;
 }
 
 section#pros {
@@ -268,5 +276,20 @@ select {
 
 	main {
 		width: 90%;
+	}
+
+	section#photo-section {
+		height: 650px;
+	}
+
+	section#photo-section figure#photo-container {
+		margin: auto;
+		width: 70%;
+		margin-top: 25px;
+	}
+
+	section#photo-section figure#photo-container img {
+		display: block;
+		margin:auto;	
 	}
 }
