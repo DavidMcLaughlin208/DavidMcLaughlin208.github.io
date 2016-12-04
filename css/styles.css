@@ -33,10 +33,17 @@ section#examples {
 }
 
 section#examples div {
-	display: block;
+	margin:auto;
+	width: 90%;
+}
+
+section#examples div div {
+	display: inline-block;
 	width: 45%;
-	float: left;
 	min-width: 275px;
+	margin: auto;
+	vertical-align: top;
+
 }
 
 figcaption {
@@ -69,6 +76,7 @@ section#head-section {
 	width: 100%;
 	box-shadow: 0px 3px #232426;
 	height: 50px;
+	background-color: rgba(255,255,255,.75)
 
 }
 
@@ -85,7 +93,7 @@ section#head-section {
 	/*border: 1px solid black;*/
 	text-align: center;
 	font-weight: lighter;
-
+	letter-spacing: 6px;
 	
 }
 
@@ -105,6 +113,7 @@ html {
 section#intro {
 	margin-bottom: 25px;
 	padding-top: 50px; 
+	padding-bottom: 40px;
 }
 
 section#intro p {
@@ -154,6 +163,12 @@ section#opensource {
 	clear: left;
 }
 
+section#opensource p {
+	max-width: 1050px;
+	margin: 20px auto;
+	text-align: center;
+}
+
 div.orange-bar {
 	height: 3px;
 	width: 50%;
@@ -181,6 +196,12 @@ section#photo-section figure#photo-container img {
 	width: 400px;
 	height: 300px;
 	border: 1px solid black;
+}
+
+section#photo-section p {
+	text-align: center;
+	margin: auto;
+	font-size: .7em;
 }
 
 section#pros {
@@ -240,7 +261,7 @@ select {
 		max-height: 420px;
 		min-width: 275px;
 		margin-bottom: 25px;
-
+		min-height: 420px;
 	}
 
 	section#examples {
@@ -250,26 +271,26 @@ select {
 		margin-bottom: 25px;
 	}
 
-	section#examples div {
+	section#examples div div {
 		float: none;
 		width: 90%;
 		margin: auto;
 
 	}
 
-	section#examples div img {
+	section#examples div div img {
 		margin: 0 auto;
 		display: block;
 
 	}
 
-	section#examples div figcaption {
+	section#examples div div figcaption {
 		margin: 0 auto;
 		display: block;
 		text-align: center;
 	}
 
-	section#examples div iframe {
+	section#examples div div iframe {
 		margin: 0 auto;
 		display: block;
 	}
@@ -291,5 +312,18 @@ select {
 	section#photo-section figure#photo-container img {
 		display: block;
 		margin:auto;	
+	}
+
+	section#opensource p {
+		margin: 35px auto;
+	}
+}
+
+@media screen and (max-width: 550px) {
+	li {
+		font-size: .9em;
+	}
+	p {
+		font-size: .9em;
 	}
 }
