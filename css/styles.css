@@ -50,6 +50,10 @@ figcaption {
 	font-size: .7em;
 }
 
+footer {
+	float: right;
+}
+
 form {
 	width: 50%;
 	min-width: 285px;
